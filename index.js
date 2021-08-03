@@ -13,7 +13,7 @@ image1.setAttribute("src", randomImageSource);
 
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-var randomImageSource2 = "https://github.com/Coolboy-786/Dice-Game/blob/main/" + randomNumber2 + ".png";
+var randomImageSource2 = "https://github.com/Coolboy-786/Dice-Game/blob/main/dice" + randomNumber2 + ".png";
 
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
